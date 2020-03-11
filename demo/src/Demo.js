@@ -1,5 +1,5 @@
 import React from 'react';
-import CalendarHeatmap from 'react-calendar-heatmap';
+import CalendarHeatmap from '@sphinx-software/react-calendar-heatmap';
 import ReactTooltip from 'react-tooltip';
 
 function shiftDate(date, numDays) {
@@ -83,6 +83,7 @@ class Demo extends React.Component {
               }}
               tooltipDataAttrs={this.getTooltipDataAttrs}
               onClick={this.handleClick}
+              showWeekdayLabels={true}
             />
           </div>
         </div>{' '}

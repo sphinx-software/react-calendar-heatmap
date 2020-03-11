@@ -1,8 +1,11 @@
 {
-  "name": "react-calendar-heatmap",
-  "version": "1.8.1",
+  "name": "@sphinx-software/react-calendar-heatmap",
+  "version": "1.9.0",
   "description": "A calendar heatmap component built on SVG, inspired by Github's commit calendar graph.",
   "author": "Kevin Qi",
+  "contributors": [
+    "rikky <rikky@sphinx-software.com>"
+  ],
   "main": "dist/react-calendar-heatmap.cjs.js",
   "module": "dist/react-calendar-heatmap.esm.js",
   "browser": "dist/react-calendar-heatmap.umd.js",
